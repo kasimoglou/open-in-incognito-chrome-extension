@@ -1,0 +1,13 @@
+{
+  "name": "Open In Incognito",
+  "version": "1.0",
+  "description": "By clicking on the extension icon current window's active tab url will open in a new Incognito window. Icons by icons8.com.",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "images/icons8-incognito-16.png"
+  }
+}
